@@ -23,4 +23,4 @@ for i in range(0,len(romart_df)):
     
     df_items = pd.DataFrame(items)
     cleaned_items_df = df_items[['name', 'base_price']]
-    cleaned_items_df.to_excel(f'{searchterm}.xlsx', index=False)
+    cleaned_items_df.to_excel(f'sanmart/{searchterm}.xlsx', index=False)
